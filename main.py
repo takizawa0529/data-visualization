@@ -8,7 +8,11 @@ import altair as alt
 
 st.set_page_config(page_title="データ分析用ダッシュボード", layout="wide")
 
-KAGGLE_DIR = Path("../competition")  # ここに各コンペ/実験フォルダがある想定
+from pathlib import Path
+import pandas as pd
+
+BASE_DIR = Path(__file__).resolve().parent
+KAGGLE_DIR = BASE_DIR / "competition"
 
 st.title("データ分析用ダッシュボード")
 
