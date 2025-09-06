@@ -8,7 +8,7 @@ import altair as alt
 
 st.set_page_config(page_title="データ分析用ダッシュボード", layout="wide")
 
-KAGGLE_DIR = Path("../data")  # ここに各コンペ/実験フォルダがある想定
+KAGGLE_DIR = Path("../competition")  # ここに各コンペ/実験フォルダがある想定
 
 st.title("データ分析用ダッシュボード")
 
