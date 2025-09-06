@@ -234,4 +234,6 @@ else:
 with st.expander("基本統計を見る", expanded=False):
     st.write(df[selected].describe(include="all").T)
 
-
+if (x_is_cat) & (y_is_num):
+    with st.expander("クラスごとの基本統計を見る", expanded=False):
+        st.write(df[selected].groupby(y_col).describe(include="all").T)
