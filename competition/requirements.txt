@@ -3,3 +3,7 @@ numpy
 altair
 matplotlib
 scikit-learn
+seaborn
+operator
+streamlit
+ast
