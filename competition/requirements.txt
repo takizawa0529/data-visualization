@@ -1,9 +1,7 @@
-pandas
-numpy
-altair
-matplotlib
-scikit-learn
-seaborn
-operator
-streamlit
-ast
+streamlit>=1.37
+pandas>=2.2
+numpy>=1.26
+altair>=5.2
+matplotlib>=3.8
+seaborn>=0.13
+pyarrow>=16
